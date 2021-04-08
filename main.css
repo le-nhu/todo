@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+#new {
+    height: 45px;
+    display: none;
+    border: none;
+    width: 100%;
+}
+
+#add {
+    border: none;
+    background: none;
+    color: white;
+    margin-left: 55%;
+}
+
+#top {
+    color: white;
+    background-color: rgb(22, 22, 83);
+    padding-left: 20px;
+}
+
+#new:focus {
+    outline: none;
+    border-style: solid;
+    border-color: gray;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
